@@ -7,13 +7,13 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title></title>
-  <meta name="description" content="" />
+  <title>Assignment 2- Upskill Chaldal ISA</title>
+  <meta name="description" content="Assignment 2- Upskill Chaldal ISA" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
@@ -39,10 +39,10 @@
     <section class="header__content" >
       <div class="header__container">
         <h1>Hungry?<br>We got you</h1>
-      <h3>Order Delivery</h3>
+      <h2>Order Delivery</h2>
       <form action="#" class="search__form">
         <input class="search__input" type="text" placeholder="Enter your location">
-        <button class="btn btn-search"><i class="fas fa-search"></i></button>
+        <button class="btn btn-search" aria-label="Search Button" title="Search Button"><i class="fas fa-search"></i></button>
       </form>
       <div class="search__desc"><i class="far fa-paper-plane"></i><span>Find your location</span></div>
       </div>
@@ -181,7 +181,7 @@
             <input  type="text" placeholder="First Name">
             <input  type="text" placeholder="Last Name">
             <input  type="email" placeholder="Email">
-            <input type="checkbox"><span class="checkbox__text">I agree to receive newsletter</span>
+            <input type="checkbox" id="checkbox__agreement"><label class="checkbox__text" for="checkbox__agreement">I agree to receive newsletter</label>
             <button class="btn btn-contact-us">SUBMIT</button>
           </form>
         </div>
